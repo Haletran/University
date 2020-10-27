@@ -6,6 +6,13 @@
     list-style: none;
     outline: none;
 }
+::-webkit-scrollbar{
+    width: 15px ;
+}
+::-webkit-scrollbar-thumb{
+    background: rgba(245, 245, 245, 0.363);
+     border-radius: 10px;
+}
 
 img {
     position: absolute;
@@ -13,7 +20,6 @@ img {
     height: 1005px;
     left: 0px;
     top: 0px;
-
 }
 
 #links {
@@ -125,14 +131,25 @@ cursor: grab;
         margin-left: 40%;
     }
 }
-@media only screen and (max-width: 1585px ){
+@media only screen and (max-width: 1550px ){
     #links{
         margin-left: 40%;
     }
     img{
-     visibility: hidden;
+        position: absolute;
+        width: 430px;
+        height: 950px;
+        left: 0px;
+        top: 0px;
     }
-
+    #copy{
+        margin: 6%;
+    }
+}
+@media only screen and (max-width: 1000px ){
+    img{
+        visibility: hidden;
+    }
 }
 @media only screen and (max-width:1210px ){
     #svg{
