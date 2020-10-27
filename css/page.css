@@ -70,7 +70,7 @@ button:hover{
 #special{
     width: 390px ;
 }
-svg{ 
+#svg{ 
  position: absolute;
 left: 72%;
 right: 2.43%;
@@ -108,4 +108,3 @@ ul{
     margin: 13px;
     padding: 0;
 }
-
