@@ -108,7 +108,7 @@ ul{
 }
 #copy{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     margin-top: 8%;
     font-family: 'Barlow', sans-serif;
 font-size: 15px;
@@ -120,3 +120,35 @@ text-align: left;
 color: #002c31;
 cursor: grab;
 }
+@media only screen and (max-width: 1762px ){
+    #links{
+        margin-left: 40%;
+    }
+}
+@media only screen and (max-width: 1585px ){
+    #links{
+        margin-left: 40%;
+    }
+    img{
+     visibility: hidden;
+    }
+
+}
+@media only screen and (max-width:1210px ){
+    #svg{
+        visibility: hidden;
+    }   
+}
+@media only screen and (max-width:1160px ){
+    #links{
+       margin-left: 40%;
+
+    }
+}
+@media only screen and (max-width:698px){
+    li{
+        visibility: hidden;
+    }
+}
+
+
