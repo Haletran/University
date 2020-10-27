@@ -26,12 +26,10 @@ img {
     line-height: 72px;
     letter-spacing: 0em;
     text-align: left;
-    margin-top: 1%;
     font-weight: bold;
-
 }
 .bta{
-    margin-top: 6%;
+    margin-top: 5%;
 }
 
 button {
@@ -107,4 +105,18 @@ li a:hover{
 ul{
     margin: 13px;
     padding: 0;
+}
+#copy{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 8%;
+    font-family: 'Barlow', sans-serif;
+font-size: 15px;
+font-style: normal;
+font-weight: 300;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+color: #002c31;
+cursor: grab;
 }
