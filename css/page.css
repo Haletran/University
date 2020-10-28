@@ -30,8 +30,6 @@ img {
     font-style: normal;
     font-weight: 400;
     line-height: 72px;
-    letter-spacing: 0em;
-    text-align: left;
     font-weight: bold;
 }
 .bta{
@@ -82,14 +80,18 @@ top: 31.35%;
 bottom: 31.84%;
 }
 li{
-  display: flex;
+  display: grid;
   justify-content: right;
-  flex-direction: row;
+  grid-auto-flow: column ;
+  gap: 2px ;
   margin-right: 50px; 
   cursor: pointer;
   list-style-type: none;
   margin-top: 27px;
-  
+
+}
+.responsive{
+    margin-left: 25px;
 }
 li a {
    padding: 15px;
@@ -137,8 +139,8 @@ cursor: pointer;
     }
     img{
         position: absolute;
-        width: 430px;
-        height: 950px;
+        width: 455px;
+        height: fit-content;
         left: 0px;
         top: 0px;
     }
@@ -156,16 +158,27 @@ cursor: pointer;
         visibility: hidden;
     }   
 }
-@media only screen and (max-width:1160px ){
+@media only screen and (max-width:1200px ){
     #links{
        margin-left: 40%;
 
+    }
+    img{
+        visibility: hidden;
     }
 }
 @media only screen and (max-width:698px){
     li{
         visibility: hidden;
     }
+    #links{
+        display: grid;
+        justify-content: left;
+    }
 }
-
+@media only screen and (max-width:1280px ){
+    .responsive{
+        margin-left: 5%;
+    }
+}
 
