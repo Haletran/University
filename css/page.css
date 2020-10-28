@@ -124,7 +124,7 @@ line-height: 30px;
 letter-spacing: 0em;
 text-align: left;
 color: #002c31;
-cursor: grab;
+cursor: pointer;
 }
 @media only screen and (max-width: 1762px ){
     #links{
