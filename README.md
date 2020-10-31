@@ -5,5 +5,4 @@ Design by me on FIGMA
 
 Code is completly open-source , so if you want <br>to change 
 something you can ! Have Fun ! 
-
-It's not ready yet , so if you want to contribute !!
+Finally ready , you can use it at your own need !!
