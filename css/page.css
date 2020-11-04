@@ -6,13 +6,6 @@
     list-style: none;
     outline: none;
 }
-::-webkit-scrollbar{
-    width: 15px ;
-}
-::-webkit-scrollbar-thumb{
-    background: rgba(245, 245, 245, 0.363);
-     border-radius: 10px;
-}
 
 img {
     position: absolute;
@@ -33,7 +26,7 @@ img {
     font-weight: bold;
 }
 .bta{
-    margin-top: 4%;
+    margin-top: 2%;
 }
 
 button {
